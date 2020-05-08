@@ -48,3 +48,25 @@ Outros sistemas operacionais e personalizações podem ser obtidos na AWS Market
 Instâncias do tipo `free tier` são gratuitas enquanto sua conta estiver na categoria de bonificação (12 primeiros meses)
 
 ![image](resources/ami.png)
+
+### Auto Scaling
+
+Útil para ajustar a capacidade da aplicação conforme necessidade.
+
+Escalabilidade horizontal dinâmica, configura-se o mínimo e o máximo de instâncias associadas a uma aplicação além do valor padrão.
+
+### Elastic Load Balancing
+
+Balanceador de cargas, funciona como um proxy antes da requisição chegar até as aplicações.
+
+- Alta disponibilidade
+- Verificar saúde
+- SSL/TLS terminação, retira da instância o custo dessa operação
+  
+#### Aplication Load Balancer
+
+Utilizando a camada 7 (aplicação) do modelo OSI, faz o gerenciamento baseado no path das requisições.
+
+#### Network Load Balancer
+
+Utilizando a camada 4 (transporte) do modelo OSI, faz o gerenciamento baseado no IP e na porta das requisições.
