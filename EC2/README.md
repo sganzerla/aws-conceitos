@@ -70,3 +70,10 @@ Utilizando a camada 7 (aplicação) do modelo OSI, faz o gerenciamento baseado n
 #### Network Load Balancer
 
 Utilizando a camada 4 (transporte) do modelo OSI, faz o gerenciamento baseado no IP e na porta das requisições.
+
+### Precificação
+
+- Instâncias On-demand: pagamento por horas de uso
+- Instâncias reservadas: pagamento antecipado com descontos
+- Dedicated Hosts: servidor físico dedicado, útil caso seja requisito de compliance da aplicação
+- Spot instances: adquirir recursos computacionais temporários que estão sobrando em outros clientes pagando um preço baixo

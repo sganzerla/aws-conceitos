@@ -20,3 +20,10 @@
 
 - criptografia disponibilizada
   
+## Precificação
+
+  Volumes
+
+  Snapshots
+
+  Transferência
